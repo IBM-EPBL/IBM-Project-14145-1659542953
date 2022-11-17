@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="static/styles.css">
+    </head>
+    <body>
+        <div class="main">  
+            <div class="content">
+                <form action="predict" method="post">
+                        <br>
+                        <input type="text" class="yearBox" name="year1" placeholder="Enter previous 10th day price"/>
+                        <br>
+                        <input type="text" class="yearBox" name="year2" placeholder="Enter previous 9th day price"/>
+                        <br>
+                        <input type="text" class="yearBox" name="year3" placeholder="Enter previous 8th day price"/>
+                        <br>
+                        <input type="text" class="yearBox" name="year4" placeholder="Enter previous 7th day price"/>
+                        <br>
+                        <input type="text" class="yearBox" name="year5" placeholder="Enter previous 6th day price"/>
+                        <br>
+                        <input type="text" class="yearBox" name="year6" placeholder="Enter previous 5th day price"/>
+                        <br>
+                        <input type="text" class="yearBox" name="year7" placeholder="Enter previous 4th day price"/>
+                        <br>
+                        <input type="text" class="yearBox" name="year8" placeholder="Enter previous 3th day price"/>
+                        <br>
+                        <input type="text" class="yearBox" name="year9" placeholder="Enter previous 2nd day price"/>
+                        <br>
+                        <input type="text" class="yearBox" name="year10" placeholder="Enter previous 1st day price"/>   
+                        <br>                 
+                        <input type="submit" class="cn"> </input>
+                    
+                    
+                </form>
+
+                <output name="output">
+                    {{predictedResult}}
+                </output>
+
+            </div>
+        </div>
+        
+    </body>
+</html>
